@@ -16,3 +16,11 @@ if (isUserloggedIn) {
 //truthy values
 
 // true, 1, -1, "0", "false", [], {}, function(){}
+
+//nullish coalescing operator
+
+const userInput = null;
+
+const storedData = userInput ?? "DEFAULT";
+
+console.log(storedData);
